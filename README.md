@@ -39,6 +39,7 @@ The purpose of the project is to provide an optimized solution for routing, gene
 
 ## Prova
 
+<pre>
 ```
 ├── ExperimentX/ # Repository of the Experiments described in the thesis
 ├── Layout/ # Layout configuration files
@@ -47,7 +48,7 @@ The purpose of the project is to provide an optimized solution for routing, gene
 ├── main.py # Main entry point
 └── README.md # This documentation ```
 
-## Jupyter Notebooks Structure
+## Jupyter Notebook Structure
 
 ```
 ├── Import and Constants 
@@ -81,7 +82,7 @@ The purpose of the project is to provide an optimized solution for routing, gene
     │
     ├── Training # Automated training simulation
     │
-    └── Test # Simulation with RL-based policy ```
+    └── Test # Simulation with RL-based policy ``` </pre>
 
 ## Features.
 
