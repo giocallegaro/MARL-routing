@@ -66,3 +66,13 @@ A pallet is a class defined by these fields:
 - next_ope, a number defining what element of the string sequence contains the next operation to be performed on the pallet;
 - pallet, a fixed number for each pallet, representing the pallet id;
 - product, a dynamic variable representing the id of the product carried by the pallet.
+
+Machines need to be added to simpy environment, after that further configurations are needed to define the machines and the agents present in the system.
+To do so, a dictionary for each machine is needed, where the parameters of the functions reported at 'Production Functions' have to be specified.
+Depending on the kind of machine, a corresponding function among the available ones has to be chosen.
+
+After accurately configuring the system, it is possible to run the simulations for the comparison policies. 
+To run the RL policy, a new set of configuration dictionaries is needed, both for the agent and the machines, thus allowing for a higher level of customizability of the agents.
+The training and the test phases duration can be different.
+
+When running the simulations, a txt file is automatically generated for each replication, reporting the log of some events.
