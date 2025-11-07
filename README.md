@@ -40,17 +40,15 @@ The purpose of the project is to provide an optimized solution for routing, gene
 ## Prova
 
 <pre>
-```
 ├── ExperimentX/ # Repository of the Experiments described in the thesis
 ├── Layout/ # Layout configuration files
 ├── SimulationCode/ # Jupyter Notebook containing the DES and the MARL algorithm
 ├── requirements.txt # List of dependencies
 ├── main.py # Main entry point
-└── README.md # This documentation ```
+└── README.md # This documentation
 
 ## Jupyter Notebook Structure
 
-```
 ├── Import and Constants 
     ├── Import # Import of necessary libraries
     └── Constants # Definition of layout-dependent constants
@@ -82,7 +80,7 @@ The purpose of the project is to provide an optimized solution for routing, gene
     │
     ├── Training # Automated training simulation
     │
-    └── Test # Simulation with RL-based policy ``` </pre>
+    └── Test # Simulation with RL-based policy </pre>
 
 ## Features.
 
