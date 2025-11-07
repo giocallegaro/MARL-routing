@@ -7,79 +7,36 @@ The purpose of the project is to provide an optimized solution for routing, gene
 
 ## Repository Structure
 
-├── ExperimentX/            # Repository of the Experiments described in the thesis
-    ├── Layout              # Layout
-    ├── SimulationCode      # Jupyter Notebook containing the DES and the MARL algorithm
-├── requirements.txt        # List of dependencies
-├── main.py                 # Main entry point
-└── README.md               # This documentation
-
-## Jupyter Notebooks Structure 
-
-├── Import and Constants 
-    ├── Import                   # Import of necessary libraries
-    ├── Constants                # Definition of layout-dependant constants
-├── Simulation Functions         
-    ├── Pallets                  # Generation of pallets
-    ├── Environment              # Definition of the simpy environments
-    ├── Production Functions     # Definition of multiple configurable functions (machines and sorting agents)
-    ├── Get State Function       # Definition of the function capturing the state of the system
-    ├── Configs                  # Configuration of the machines and the layout
-    ├── Source                   # Definition of the simpy source functions
-├── Random Policy                # Simulation with RandomPolicy
-├── Heuristic Policy Th          # Simulation with HeuristicPolicyTh 
-├── Heuristic Policy Flow        # Simulation with HeuristicPolicyFlow
-├── RL Agent                     
-    ├── Q-Table print Function   # Definition of the function printing the Q-Table
-    ├── Agent function           # Definition of the agents class (configurable)
-    ├── Reduced State Function   # Definition of the function reducing the complexity of the state
-    ├── Configs                  # Configuration of the agents, machines and the layout 
-        ├── Training             # Automated simulation for the training of the agent
-        └── Test                 # Simulation with RL-based Policy
-
-## Prova
-
 <pre>
 ├── ExperimentX/ # Repository of the Experiments described in the thesis
 ├── Layout/ # Layout configuration files
 ├── SimulationCode/ # Jupyter Notebook containing the DES and the MARL algorithm
 ├── requirements.txt # List of dependencies
 ├── main.py # Main entry point
-└── README.md # This documentation
+└── README.md # This documentation </pre>
 
 ## Jupyter Notebook Structure
 
+<pre>
 ├── Import and Constants 
     ├── Import # Import of necessary libraries
     └── Constants # Definition of layout-dependent constants
 ├── Simulation Functions
-    │ 
     ├── Pallets # Generation of pallets
-    │
     ├── Environment # Definition of the SimPy environment
-    │
     ├── Production Functions # Definition of multiple configurable machine and agent functions
-    │
     ├── Get State Function # Function capturing the state of the system
-    │
     ├── Configs # Configuration of the machines and the layout
-    │
     └── Source # Definition of the SimPy source functions
 ├── Random Policy # Simulation with RandomPolicy
 ├── Heuristic Policy Th # Simulation with HeuristicPolicyTh
 ├── Heuristic Policy Flow # Simulation with HeuristicPolicyFlow
 ├── RL Agent
-    │
     ├── Q-Table print Function # Prints the Q-Table
-    │
     ├── Agent function # Definition of the agent class (configurable)
-    │
     ├── Reduced State Function # Reduces the complexity of the state
-    │
     ├── Configs # Configures the agents, machines and layout
-    │
     ├── Training # Automated training simulation
-    │
     └── Test # Simulation with RL-based policy </pre>
 
 ## Features.
