@@ -8,38 +8,38 @@ The purpose of the project is to provide an optimized solution for routing, gene
 ## Repository Structure
 
 <pre>
-├── ExperimentX/ # Repository of the Experiments described in the thesis
-├── Layout/ # Layout configuration files
-├── SimulationCode/ # Jupyter Notebook containing the DES and the MARL algorithm
-├── requirements.txt # List of dependencies
-├── main.py # Main entry point
-└── README.md # This documentation </pre>
+├── ExperimentX/                   # Repository of the Experiments described in the thesis
+    ├── Layout                     # Layout configuration files
+    ├── SimulationCode             # Jupyter Notebook containing the DES and the MARL algorithm
+├── requirements.txt               # List of dependencies
+├── main.py                        # Main entry point
+└── README.md                      # This documentation </pre>
 
 ## Jupyter Notebook Structure
 
 <pre>
 ├── Import and Constants 
-    ├── Import # Import of necessary libraries
-    └── Constants # Definition of layout-dependent constants
+    ├── Import                     # Import of necessary libraries
+    └── Constants                  # Definition of layout-dependent constants
 ├── Simulation Functions
-    ├── Pallets # Generation of pallets
-    ├── Environment # Definition of the SimPy environment
-    ├── Production Functions # Definition of multiple configurable machine and agent functions
-    ├── Get State Function # Function capturing the state of the system
-    ├── Configs # Configuration of the machines and the layout
-    └── Source # Definition of the SimPy source functions
-├── Random Policy # Simulation with RandomPolicy
-├── Heuristic Policy Th # Simulation with HeuristicPolicyTh
-├── Heuristic Policy Flow # Simulation with HeuristicPolicyFlow
+    ├── Pallets                    # Generation of pallets
+    ├── Environment                # Definition of the SimPy environment
+    ├── Production Functions       # Definition of multiple configurable machine and agent functions
+    ├── Get State Function         # Function capturing the state of the system
+    ├── Configs                    # Configuration of the machines and the layout
+    └── Source                     # Definition of the SimPy source functions
+├── Random Policy                  # Simulation with RandomPolicy
+├── Heuristic Policy Th            # Simulation with HeuristicPolicyTh
+├── Heuristic Policy Flow          # Simulation with HeuristicPolicyFlow
 ├── RL Agent
-    ├── Q-Table print Function # Prints the Q-Table
-    ├── Agent function # Definition of the agent class (configurable)
-    ├── Reduced State Function # Reduces the complexity of the state
-    ├── Configs # Configures the agents, machines and layout
-    ├── Training # Automated training simulation
-    └── Test # Simulation with RL-based policy </pre>
+    ├── Q-Table print Function     # Prints the Q-Table
+    ├── Agent function             # Definition of the agent class (configurable)
+    ├── Reduced State Function     # Reduces the complexity of the state
+    ├── Configs                    # Configures the agents, machines and layout
+    ├── Training                   # Automated training simulation
+    └── Test                       # Simulation with RL-based policy </pre>
 
-## Features.
+## Features
 
 To adapt the environment to the configuration under analysis, the following constants and variables have to be configured:
 
