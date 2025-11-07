@@ -48,11 +48,10 @@ The purpose of the project is to provide an optimized solution for routing, gene
 └── README.md # This documentation ```
 
 ## Jupyter Notebooks Structure
+
 ```
 ├── Import and Constants 
-    │
     ├── Import # Import of necessary libraries
-    │
     └── Constants # Definition of layout-dependent constants
 ├── Simulation Functions
     │ 
