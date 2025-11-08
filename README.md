@@ -19,6 +19,8 @@ The purpose of the project is to provide an optimized solution for routing, gene
 
 The Reinforcement Learning algorithm effectiveness is strictly related to the accuracy of the state definitions.
 The logic adopted in this project is the following: 
+
+
 <img width="270" height="480" alt="FlowDiagram1" src="https://github.com/user-attachments/assets/7e93ca91-6330-4a07-b5ee-fe5855c6a618" />
 
 ## Jupyter Notebook Structure
